@@ -18,4 +18,9 @@ public class Calculator {
         Assert.assertEquals(200, res);
     }
 
+    @Test
+    public void subTwoNumber(){
+        int subRes = a.getSub(10,5);
+        Assert.assertEquals(5,subRes);
+    }
 }
